@@ -248,6 +248,7 @@ class Home extends StatelessWidget {
       bottomNavigationBar: const AppButtonBar(),
     );
   }
+
   Widget BuildListItem(Mount_item item,BuildContext context) => Row(
     children: [
       GestureDetector(
@@ -258,7 +259,6 @@ class Home extends StatelessWidget {
           padding: const EdgeInsets.all(10.0),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10.0),
-
             image: DecorationImage(
               image: NetworkImage(item.path),
               fit: BoxFit.cover

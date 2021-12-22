@@ -10,6 +10,8 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: true,
+      title: "Workshop",
+      color: Colors.red,
       home: SplashScreen(),
     );
   }
